@@ -1,0 +1,24 @@
+
+/* === 头部导航常量 === */
+$topbar_height: 56px;
+$topbar_color: #233649;
+
+/* === 侧边栏常量 === */
+$sidebar_bg: #2e3e50;                                             // 侧边栏背景色
+$sidebar_width: 160px;                                            // 侧边栏宽度
+
+// 左侧一级导航常量
+$sidebar_left_color: #aeb9c2;                                     // 图标颜色
+$sidebar_left_bg: #2e3e50;                                        // 背景颜色
+$sidebar_left_active_color: $primary;                             // 激活字体颜色
+$sidebar_left_active_bg: #213142;                                 // 激活背景颜色
+
+// 左侧二级导航常量
+$sidebar_right_bg: darken(#f9f9f9, 2%);                            // 背景颜色
+$sidebar_right_color: #555;                                        // 图标颜色
+$sidebar_right_active_color: $primary;                             // 激活字体颜色
+$sidebar_right_active_bg: #233649;                                 // 激活背景颜色
+
+$sidebar_collapse_width: 50px;                                    // 侧边栏收起后宽度
+
+$helpbar_width: 280px;                                            // 右边栏宽度

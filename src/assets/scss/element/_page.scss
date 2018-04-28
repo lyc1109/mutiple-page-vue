@@ -1,0 +1,23 @@
+.page {
+  float: right;
+  margin-top: $s;
+
+  .show-page {
+    position: relative;
+    top: 9.8px;
+    font-size: $font-size-s;
+    float: left;
+
+    span{
+      color: $font-light;
+      font-weight: 400;
+    }
+  }
+  .el-pagination {
+    float: left;
+
+    span {
+      font-size: $font-size-s;
+    }
+  }
+}

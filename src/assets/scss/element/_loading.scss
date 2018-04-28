@@ -1,0 +1,44 @@
+.v-loading {
+  .el-icon-loading,
+  .el-loading-text {
+    color: $white;
+  }
+  .el-icon-loading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+/*.el-loading-spinner {
+  background-image: url(/distv3/images/xohaa-loading.gif);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  top: 35%;
+
+  .circular{
+    display: none;
+  }
+  .el-loading-text{
+    position: relative;
+    top: 60px;
+    color: #32a8ee;
+  }
+}*/
+//.el-loading-spinner{
+//  background-image: url("../../../static/images/xohaa-loading.gif");
+//  background-size: 60px;
+//  background-repeat: no-repeat;
+//  background-position: center;
+//  height: 60px;
+//  top: 35%;
+//
+//  .circular{
+//    display: none;
+//  }
+//  .el-loading-text{
+//    position: relative;
+//    top: 60px;
+//    color: $primary;
+//  }
+//}

@@ -1,0 +1,42 @@
+//下拉框
+.el-select-dropdown {
+  margin: 0;
+
+  .el-select-dropdown__list {
+    padding: 0;
+
+    .el-select-dropdown__item {
+      color: #333;
+      //font-size: 12px;
+
+      span{
+        width: 90%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      &.selected {
+        background: rgba(50, 168, 238, 0.2);
+      }
+    }
+  }
+}
+.el-select{
+  //width: 120px;
+
+  .el-input__icon{
+    color: #ccc!important;
+  }
+  .el-input__inner{
+    color: #333;
+    border-color: #ccc!important;
+    //font-size: $font-size-s;
+  }
+}
+
+.product-filter{
+  .el-select{
+    width: 130px;
+  }
+}

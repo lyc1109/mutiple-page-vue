@@ -1,0 +1,10 @@
+.el-input-group__append, .el-input-group__prepend{
+  padding: 0 10px;
+}
+.el-input--mini{
+  //font-size: $font-size-s;
+
+  .el-textarea__inner {
+    font-family: 'Microsoft YaHei';
+  }
+}

@@ -1,0 +1,37 @@
+.el-table{
+  .el-table__header-wrapper,.el-table__fixed-header-wrapper{
+    th.is-leaf{
+      height: 36px;
+      //background: $primary;
+      background: $gray-light-1;
+      padding: 0;
+
+      .cell{
+        //color: $white;
+        font-size: $font-size-s;
+        font-weight: 400;
+        background: $gray-light-1;
+        //background: $primary;
+      }
+    }
+  }
+  .el-table__body-wrapper{
+    td{
+      height: 40px;
+      padding: 0;
+
+      .cell{
+        font-size: $font-size-s;
+        font-weight: 400;
+      }
+    }
+  }
+  .el-table__fixed-body-wrapper{
+    top: 32.5px!important;
+    z-index: 2;
+
+    td{
+      padding: 2px 0;
+    }
+  }
+}

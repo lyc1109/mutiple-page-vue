@@ -1,0 +1,22 @@
+.export-uploader {
+  width: 100%;
+
+  .el-upload-dragger {
+    border: 0 none;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    //line-height: 180px;
+
+    .el-input {
+      width: 25%;
+    }
+    .el-button {
+      //background: none;
+      //border: 0 none;
+    }
+  }
+  .el-upload {
+    width: 100%;
+  }
+}
